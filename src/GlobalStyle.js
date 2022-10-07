@@ -1,5 +1,4 @@
 import { createGlobalStyle } from "styled-components";
-import Barney from './assets/fonts/Barneyfont.otf';
 
 export const GlobalStyle = createGlobalStyle`
   *{
@@ -11,10 +10,6 @@ export const GlobalStyle = createGlobalStyle`
   }
   body{
     background-color: white;
-  }
-  @font-face {
-    font-family: 'Barney';
-    src: url(${Barney});
   }
   a{
     color: black;

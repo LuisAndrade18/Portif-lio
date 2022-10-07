@@ -3,7 +3,7 @@ import * as S from '../Style'
 
 const Counter = () => {
   return (
-    <S.Couter>
+    <S.Counter>
       <div>
         <h5>6</h5>
         <p>Projetos</p>
@@ -16,7 +16,7 @@ const Counter = () => {
         <h5>0</h5>
         <p>Dias sem estresse</p>
       </div>
-    </S.Couter>
+    </S.Counter>
   );
 };
 

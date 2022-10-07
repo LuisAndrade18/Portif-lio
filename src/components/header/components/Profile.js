@@ -29,7 +29,7 @@ const Profile = () => {
             <I.DiReact />
           </li>
         </ul>
-        <div>
+        <div className='Mobile'>
           <SocialMedia />
         </div>
       </S.About>
