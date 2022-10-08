@@ -1,5 +1,5 @@
 import React from 'react';
-import * as S from '../Style';
+import * as S from '../../footer/Style';
 import * as I from 'react-icons/fa';
 
 const SocialMedia = () => {

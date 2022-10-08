@@ -2,7 +2,6 @@ import React from 'react';
 import * as S from '../Style';
 import PerfilPic from '../../../assets/images/perfil.jpg';
 import * as I from 'react-icons/di';
-import SocialMedia from './SocialMedia';
 
 const Profile = () => {
   return (
@@ -29,9 +28,6 @@ const Profile = () => {
             <I.DiReact />
           </li>
         </ul>
-        <div className='Mobile'>
-          <SocialMedia />
-        </div>
       </S.About>
     </div>
   );

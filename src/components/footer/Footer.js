@@ -1,8 +1,12 @@
 import React from 'react'
+import * as S from './Style'
+import Social from './components/SocialMedia'
 
 const Footer = () => {
   return (
-    <div>Footer</div>
+    <S.Footer>
+      <Social/>
+    </S.Footer>
   )
 }
 

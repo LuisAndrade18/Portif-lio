@@ -48,47 +48,109 @@ export const Linked = styled(Link)`
     }
   }
 `;
-export const Counter = styled.div`
+
+export const RouterAbout = styled.section`
+  width: 100%;
   display: flex;
-  justify-content: space-around;
-  border-bottom: solid #c0c0c0 2px;
-  padding: 10px 0;
-  div {
-    width: 33%;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 30px;
+  h2 {
+    font-size: 7vw;
+    color: #3e3e3e;
+  }
+  h5 {
+    font-size: 3vw;
+    font-weight: 500;
+    color: #808080;
+  }
+  @media screen and (min-width: 900px) {
+    h2 {
+      font-size: 3vw;
+    }
+    h5 {
+      font-size: 1.25vw;
+    }
+  }
+`;
+
+export const RouterAboutCard = styled.div`
+  display: flex;
+  height: 180%;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  h4 {
+    padding: 20px;
+    font-size: 6vw;
+    color: #3f3f3f;
+  }
+  img {
+    width: 200px;
+    height: 200px;
+    border-radius: 100%;
+    object-fit: cover;
+  }
+  figure {
+    width: 80%;
     display: flex;
     flex-direction: column;
     align-items: center;
   }
-  h5 {
-    font-size: 12px;
+
+  figcaption {
+    margin: 40px 0;
+    font-size: 4vw;
+    text-align: center;
+    color: #3d3d3d;
+    span{
+      font-weight: 600;
   }
-  p {
-    font-size: 12px;
-  }
-  @media screen and (min-width: 520px) {
-    width: 70%;
-    position: absolute;
-    top: -33.5vw;
-    right: 2%;
-    border: none;
-    h5 {
-      font-size: 3vw;
-    }
-    p {
-      font-size: 2.3vw;
-    }
   }
 
+  
+
   @media screen and (min-width: 900px) {
-    width: 40%;
-    right: 40%;
-    top: -400%;
-    translate: 50%;
-    h5 {
-      font-size: 2vw;
+    img {
+      width: 300px;
+      height: 300px;
+      border-radius: 100%;
+      object-fit: cover;
     }
-    p {
-      font-size: 1.5vw;
+    &:nth-child(2n + 1) {
+      width: 100%;
+      h4 {
+        font-size: 3vw;
+      }
+      figure {
+        width: 80%;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+      }
+      figcaption {
+        margin: 40px;
+        font-size: 2vw;
+        text-align: justify;
+      }
+    }
+    &:nth-child(2n + 0) {
+      width: 100%;
+      h4 {
+        font-size: 3vw;
+      }
+      figure {
+        width: 80%;
+        flex-direction: row-reverse;
+        align-items: center;
+        justify-content: space-between;
+      }
+      figcaption {
+        margin: 40px;
+        font-size: 2vw;
+        text-align: justify;
+      }
     }
   }
 `;

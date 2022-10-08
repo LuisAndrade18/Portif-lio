@@ -2,14 +2,11 @@ import styled from 'styled-components';
 
 export const Header = styled.header`
   width: 100%;
+  position: relative;
   @media screen and (min-width: 900px) {
     width: 70%;
     margin: auto;
   }
-`;
-
-export const HeaderAbout = styled.div`
-  display: flex;
 `;
 
 export const Profile = styled.div`
@@ -33,12 +30,12 @@ export const Pic = styled.figure`
   }
 
   @media screen and (min-width: 900px) {
-    width: 15vw;
-    height: 15vw;
+    width: 10vw;
+    height: 10vw;
     img {
       width: 100%;
       height: 150%;
-      object-position: 0 -6vw;
+      object-position: 0 -4vw;
       object-fit: cover;
     }
   }
@@ -76,6 +73,7 @@ export const About = styled.div`
   padding: 0 5%;
   display: flex;
   justify-content: space-between;
+  color: #3e3e3e;
   ul {
     width: 50%;
   }
@@ -137,31 +135,51 @@ export const HL = styled.div`
   }
 `;
 
-export const Social = styled.nav`
-  width: 100%;
-  max-width: 100px;
-  ul {
-    width: 100%;
+
+export const Counter = styled.div`
+  display: flex;
+  justify-content: space-around;
+  border-bottom: solid #c0c0c0 2px;
+  padding: 10px 0;
+
+  div {
+    width: 33%;
     display: flex;
-    justify-content: space-between;
+    flex-direction: column;
+    align-items: center;
   }
-  a {
-    font-size: 20px;
+  h5 {
+    color: #3e3e3e;
+    font-size: 12px;
   }
-  @media screen and (min-width: 500px) {
+  p {
+    color: #686868;
+    font-size: 12px;
+  }
+
+  @media screen and (min-width: 520px) {
+    width: 60%;
     position: absolute;
-    bottom: -12.5vw;
-    ul {
-      width: 250%;
-      display: flex;
-      justify-content: space-between;
+    right: 0;
+    top: 42.5%;
+    border: none;
+    h5 {
+      font-size: 3vw;
     }
-    a {
-      font-size: 2.5rem;
+    p {
+      font-size: 2.3vw;
     }
   }
 
   @media screen and (min-width: 900px) {
-    bottom: -7vw;
+    top: 37.5%;
+    h5 {
+      font-size: 2vw;
+    }
+    p {
+      font-size: 1.5vw;
+    }
   }
 `;
+
+
