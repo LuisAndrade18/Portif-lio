@@ -157,16 +157,16 @@ export const Portfolio = styled.section`
   width: 100%;
   margin: auto;
   display: flex;
-  justify-content: space-between;
   flex-wrap: wrap;
 `;
 
 export const Projetos = styled.div`
   img {
-    width: 32.5vw;
-    height: 32.5vw;
+    width: 32vw;
+    height: 32vw;
     object-fit: cover;
-    margin-bottom: 1px;
+    object-position: 0;
+    margin: 0 2px;
   }
 `;
 
