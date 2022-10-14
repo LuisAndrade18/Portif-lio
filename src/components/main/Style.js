@@ -242,12 +242,14 @@ export const ProfileBoxImg = styled.img`
 
 export const PopupHeader = styled.div`
   width: 100%;
+  padding: 10px;
   border-bottom: solid 2px #c0c0c0;
   display: flex;
   justify-content: space-between;
   align-items: center;
   h5 {
-    translate: -50%;
+    translate: -30%;
+    font-weight: 600;
   }
   button {
     background: none;

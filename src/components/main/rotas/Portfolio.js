@@ -14,7 +14,6 @@ const Portifolio = () => {
 
   return (
     <S.Portfolio>
-      
         {results.map((i) => (
         <S.Projetos
           onClick={() => {
@@ -38,7 +37,7 @@ const Portifolio = () => {
                 <h5>{i.name}</h5>
                 <span></span>
               </S.PopupHeader>
-              <div>
+              
                 <S.PopupProfileBox>
                   <S.ProfileBoxImg src={PerfilPic} alt="" />
                   <h4>LuisAndrade18</h4>
@@ -58,7 +57,7 @@ const Portifolio = () => {
                     <span>andrade_luis18</span> - {i.about}
                   </p>
                 </S.PopupContent>
-              </div>
+              
             </S.Popup>
           ))}
         </S.Popup>
