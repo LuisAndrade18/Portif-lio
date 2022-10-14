@@ -32,8 +32,7 @@ export const results = [
   {
     name: 'PiraTecs',
     type: 'React.js',
-    about:
-      'Consumindo API de filmes.',
+    about: 'Consumindo API de filmes.',
     image:
       'https://screenshot-proxy.netlify.app/f_avif,w_336/https://d33wubrfki0l68.cloudfront.net/6308cdd03f533d22fd7b1ed2/screenshot_2022-08-26-13-43-19-0000.png',
     repositorio: 'https://github.com/LuisAndrade18/Movie',
@@ -42,8 +41,7 @@ export const results = [
   {
     name: 'HogwartSchool',
     type: 'React.js',
-    about:
-      'Consumo da API de Harry Potter, ainda em andamento!',
+    about: 'Consumo da API de Harry Potter, ainda em andamento!',
     image:
       'https://screenshot-proxy.netlify.app/f_avif,w_336/https://d33wubrfki0l68.cloudfront.net/632d0ec8e9447713676b28b8/screenshot_2022-09-23-01-42-26-0000.png',
     repositorio: 'https://github.com/LuisAndrade18/Harry-Api',

@@ -75,7 +75,7 @@ export const About = styled.div`
   justify-content: space-between;
   color: #3e3e3e;
   ul {
-    width: 50%;
+    width: 60%;
   }
   li {
     display: flex;

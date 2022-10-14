@@ -14,7 +14,8 @@ const Portifolio = () => {
 
   return (
     <S.Portfolio>
-      {results.map((i) => (
+      
+        {results.map((i) => (
         <S.Projetos
           onClick={() => {
             changeContent(i);
@@ -24,6 +25,8 @@ const Portifolio = () => {
           <img src={i.image} alt="" />
         </S.Projetos>
       ))}
+      
+      
       {open && (
         <S.Popup>
           {popupcontent.map((i) => (
@@ -52,7 +55,7 @@ const Portifolio = () => {
                     </a>
                   </p>
                   <p>
-                    <span>LuisAndrade18</span> - {i.about}
+                    <span>andrade_luis18</span> - {i.about}
                   </p>
                 </S.PopupContent>
               </div>

@@ -11,15 +11,15 @@ const Profile = () => {
           <img src={PerfilPic} alt="" />
         </S.Pic>
         <S.Name>
-          <h3>@LuisAndrade18</h3>
+          <h3>@andrade_luis18</h3>
           <h5>Front-End Developer</h5>
         </S.Name>
       </S.Profile>
       <S.About>
         <ul>
           <li>
-            Luis Andrade <I.DiWindows />
-          </li>
+            Luis F. Andrade <I.DiWindows />
+          </li> 
           <li>Carioca</li>
           <li>
             <I.DiHtml5 />|

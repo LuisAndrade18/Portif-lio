@@ -5,7 +5,7 @@ const Counter = () => {
   return (
     <S.Counter>
       <div>
-        <h5>6</h5>
+        <h5>5</h5>
         <p>Projetos</p>
       </div>
       <div>

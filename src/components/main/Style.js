@@ -2,10 +2,7 @@ import styled from 'styled-components';
 import { Link } from 'react-router-dom';
 
 export const Main = styled.main`
-  position: relative;
-  @media screen and (min-width: 500px) {
-    position: relative;
-  }
+  width: 100%;
 `;
 
 export const Links = styled.div`
@@ -14,6 +11,10 @@ export const Links = styled.div`
   justify-content: space-around;
   border-bottom: solid #c0c0c0 2px;
   padding: 10px 0;
+  @media screen and (min-width: 900px) {
+    width: 75%;
+    margin: auto;
+  }
 `;
 
 export const Linked = styled(Link)`
@@ -158,6 +159,9 @@ export const Portfolio = styled.section`
   margin: auto;
   display: flex;
   flex-wrap: wrap;
+  @media screen and (min-width: 900px) {
+    width: 75%;
+  }
 `;
 
 export const Projetos = styled.div`
@@ -166,7 +170,23 @@ export const Projetos = styled.div`
     height: 32vw;
     object-fit: cover;
     object-position: 0;
-    margin: 0 2px;
+    margin: 0.6vw;
+  }
+  @media screen and (min-width: 700px) {
+    img {
+      width: 30vw;
+      height: 30vw;
+      object-fit: cover;
+      object-position: 0;
+      margin: 1.6vw;
+    }
+  }
+  @media screen and (min-width: 900px) {
+    img {
+      width: 21.3vw;
+      height: 21.3vw;
+      margin: 1.7vw;
+    }
   }
 `;
 
@@ -204,7 +224,7 @@ export const PopupContent = styled.div`
     width: 85%;
     margin: auto;
   }
-  a{
+  a {
     font-size: 30px;
   }
   span {
