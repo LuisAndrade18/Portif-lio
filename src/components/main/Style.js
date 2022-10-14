@@ -104,12 +104,10 @@ export const RouterAboutCard = styled.div`
     font-size: 4vw;
     text-align: center;
     color: #3d3d3d;
-    span{
+    span {
       font-weight: 600;
+    }
   }
-  }
-
-  
 
   @media screen and (min-width: 900px) {
     img {
@@ -124,15 +122,15 @@ export const RouterAboutCard = styled.div`
         font-size: 3vw;
       }
       figure {
-        width: 80%;
+        width: 70%;
         flex-direction: row;
         align-items: center;
         justify-content: space-between;
       }
       figcaption {
-        margin: 40px;
+        width: 70%;
+        margin: 60px 20px;
         font-size: 2vw;
-        text-align: justify;
       }
     }
     &:nth-child(2n + 0) {
@@ -141,16 +139,99 @@ export const RouterAboutCard = styled.div`
         font-size: 3vw;
       }
       figure {
-        width: 80%;
+        width: 70%;
         flex-direction: row-reverse;
         align-items: center;
         justify-content: space-between;
       }
       figcaption {
-        margin: 40px;
+        width: 70%;
+        margin: 60px 20px;
         font-size: 2vw;
-        text-align: justify;
       }
     }
+  }
+`;
+
+export const Portfolio = styled.section`
+  width: 100%;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+`;
+
+export const Projetos = styled.div`
+  img {
+    width: 32.5vw;
+    height: 32.5vw;
+    object-fit: cover;
+    margin-bottom: 1px;
+  }
+`;
+
+export const Popup = styled.div`
+  width: 100%;
+  height: 100%;
+  background-color: #ffffff;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+`;
+
+export const PopupProfileBox = styled.div`
+  width: 100%;
+  padding: 10px;
+  display: flex;
+  align-items: center;
+  h4 {
+    font-weight: 200;
+    padding-left: 10px;
+  }
+`;
+
+export const PopupContent = styled.div`
+  width: 100%;
+  font-size: 14px;
+  img {
+    width: 100%;
+  }
+  p {
+    width: 85%;
+    margin: auto;
+  }
+  a{
+    font-size: 30px;
+  }
+  span {
+    font-weight: 700;
+  }
+`;
+
+export const ProfileBoxImg = styled.img`
+  width: 40px;
+  height: 40px;
+  object-fit: cover;
+  object-position: 0;
+  border-radius: 100%;
+`;
+
+export const PopupHeader = styled.div`
+  width: 100%;
+  border-bottom: solid 2px #c0c0c0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  h5 {
+    translate: -50%;
+  }
+  button {
+    background: none;
+    border: none;
+    font-size: 30px;
   }
 `;

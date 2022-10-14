@@ -15,8 +15,10 @@ const About = () => {
           <img src={violin} alt="Luis Andrade tocando violino" />
           <figcaption>
             Musica é como respirar. É natural do ser humano se atrair pela
-            música. Seja batucando em uma mesa, ou assoviando pelas ruas,
-            é algo tão intrelassado em nossas vidas, que se encontra em momentos de alegria, tristeza, concentração, diversão. Amo fazer música. É como falar uma nova língua que em qualquer lugar consigo conversar. 
+            música. Seja batucando em uma mesa, ou assoviando pelas ruas, é algo
+            tão intrelassado em nossas vidas, que se encontra em momentos de
+            alegria, tristeza, concentração, diversão. Amo fazer música. É como
+            falar uma nova língua que em qualquer lugar consigo conversar.
           </figcaption>
         </figure>
       </S.RouterAboutCard>
@@ -53,7 +55,8 @@ const About = () => {
             <span>
               "Comunicação é sempre uma via de duas mãos. O problema é que
               sempre estamos na contramão".
-            </span> Devemos sempre buscar maneiras de se comunicar melhor, pois nossa
+            </span>{' '}
+            Devemos sempre buscar maneiras de se comunicar melhor, pois nossa
             fala atinge diretamente a outra pessoa.
           </figcaption>
         </figure>

@@ -2,7 +2,9 @@ import React from 'react'
 
 const Home = () => {
   return (
-    <div>Home</div>
+    <div>
+      <h2>Quem é Luis Andrade</h2>
+    </div>
   )
 }
 

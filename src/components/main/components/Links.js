@@ -11,7 +11,7 @@ const Links = () => {
       <S.Linked to="/about">
         <I.RiUserLine />
       </S.Linked>
-      <S.Linked to="/portifolio" >
+      <S.Linked to="/portfolio" >
         <I.RiApps2Line />
       </S.Linked>
     </S.Links>

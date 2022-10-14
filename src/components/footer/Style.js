@@ -33,7 +33,7 @@ export const Social = styled.nav`
   @media screen and (min-width: 1000px) {
     width: 40%;
     ul {
-      font-size: 3.5vw;
+      font-size: 2.5vw;
     }
   }
 `;
