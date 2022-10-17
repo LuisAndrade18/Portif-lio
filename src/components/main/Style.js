@@ -50,13 +50,42 @@ export const Linked = styled(Link)`
   }
 `;
 
+export const RouterHome = styled.section`
+  width: 100%;
+  height: 60vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 30px;
+  h2 {
+    font-size: 7vw;
+    color: #3e3e3e;
+  }
+  h5 {
+    width: 80%;
+    padding: 30px 0;
+    text-align: center;
+    font-size: 4vw;
+    font-weight: 500;
+    color: #808080;
+  }
+  @media screen and (min-width: 900px) {
+    h2 {
+      font-size: 4vw;
+    }
+    h5 {
+      font-size: 2.25vw;
+    }
+  }
+`;
+
 export const RouterAbout = styled.section`
   width: 100%;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  margin-top: 30px;
   h2 {
     font-size: 7vw;
     color: #3e3e3e;
@@ -201,6 +230,56 @@ export const Popup = styled.div`
   display: flex;
   flex-direction: column;
   align-items: center;
+  button {
+    background: none;
+    border: none;
+    font-size: 30px;
+  }
+  .btn2 {
+    display: none;
+  }
+  @media screen and (min-width: 700px) {
+    background-color: #75757567;
+    .btn1 {
+      display: none;
+    }
+    .btn2 {
+      color: #333333;
+      display: initial;
+      font-size: 30px;
+      position: absolute;
+      right: 2%;
+      top: 2%;
+    }
+  }
+`;
+export const PopupInside = styled.div`
+  width: 100%;
+  height: 100%;
+  background-color: #ffffff;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  .top {
+    width: 100%;
+  }
+  @media screen and (min-width: 700px) {
+    width: 80vw;
+    height: 60vw;
+    border-radius: 20px;
+    overflow: auto;
+    top: 40%;
+    left: 50%;
+    translate: -50% -40%;
+  }
+  @media screen and (min-width: 900px) {
+    width: 60vw;
+    height: 40vw;
+  }
 `;
 
 export const PopupProfileBox = styled.div`
@@ -230,6 +309,13 @@ export const PopupContent = styled.div`
   span {
     font-weight: 700;
   }
+  @media screen and (min-width: 700px) {
+    padding-bottom: 40px;
+    font-size: 2vw;
+  }
+  @media screen and (min-width: 900px) {
+  font-size: 1.5vw;
+  }
 `;
 
 export const ProfileBoxImg = styled.img`
@@ -251,9 +337,7 @@ export const PopupHeader = styled.div`
     translate: -30%;
     font-weight: 600;
   }
-  button {
-    background: none;
-    border: none;
-    font-size: 30px;
+  @media screen and (min-width: 700px) {
+  justify-content: center;
   }
 `;

@@ -6,7 +6,7 @@ import trilha from '../../../assets/images/luisTrilha.jpg';
 
 const About = () => {
   return (
-    <S.RouterAbout>
+    <S.RouterAbout> 
       <h2>Esse é o Luis</h2>
       <h5>(não tão "tecnicamente")</h5>
       <S.RouterAboutCard>
