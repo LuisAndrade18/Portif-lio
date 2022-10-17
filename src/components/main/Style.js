@@ -200,6 +200,7 @@ export const Projetos = styled.div`
     object-fit: cover;
     object-position: 0;
     margin: 0.6vw;
+    cursor: pointer;
   }
   @media screen and (min-width: 700px) {
     img {
