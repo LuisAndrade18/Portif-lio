@@ -1,5 +1,15 @@
 export const results = [
   {
+    name: 'Maré ODS',
+    type: 'React.js',
+    about:
+      'Falando um pouco sobre os ODS da Onu e indicando pontos da minha comunidade que cumprem esses objetivos.',
+    image:
+      'https://screenshot-proxy.netlify.app/f_avif,w_336/https://d33wubrfki0l68.cloudfront.net/6352f58116a30c5a2fd3fcf9/screenshot_2022-10-21-19-40-28-0000.png',
+    repositorio: 'https://github.com/LuisAndrade18/ods',
+    site: 'https://mare-ods.netlify.app/ods-em-minha-regiao',
+  },
+  {
     name: 'Pair Programing',
     type: 'React.js',
     about:
