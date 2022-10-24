@@ -53,7 +53,7 @@ const Portifolio = () => {
                   <a href={i.repositorio}>
                     <I.DiGithubBadge />
                   </a>
-                  {'      '}
+                  {'  '}
                   <a href={i.site}>
                     <I.DiNetmagazine />
                   </a>

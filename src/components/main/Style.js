@@ -305,7 +305,7 @@ export const PopupContent = styled.div`
     margin: auto;
   }
   a {
-    font-size: 30px;
+    font-size: 35px;
   }
   span {
     font-weight: 700;
